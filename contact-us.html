@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/custom.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Contact Us</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div
+        class="container d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-2 border-bottom"
+      >
+        <a
+          class="navbar-brand d-flex col-md-3 mb-2 mb-md-0 text-dark text-decoration-none"
+          href="index.html"
+        >
+          <img src="img/euro_logo.png" width="250rem" alt="" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div
+          class="collapse navbar-collapse col-12 col-md-auto mb-2 justify-content-end mb-md-0"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about-us.html">About Us</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="services.html"
+                id="navbarDropdown1"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Services
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                <li>
+                  <a class="dropdown-item" href="services.html">Our Services</a>
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Buy Sell Currency</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Currency Exchange</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="locations.html"
+                id="navbarDropdown2"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Location
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                <li>
+                  <a class="dropdown-item" href="locations.html">Maimi, FL</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="locations.html">Doral, FL</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="rates.html">Rates</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact-us.html">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <section class="mt-5 mb-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-7">
+              <h3>Contact Us</h3>
+
+              <form>
+                <div class="mb-3">
+                  <label for="FullName" class="form-label">Full Name</label>
+                  <input type="text" class="form-control" id="FullName" />
+                </div>
+
+                <div class="mb-3">
+                  <label for="inputEmail" class="form-label"
+                    >Email address</label
+                  >
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="inputEmail"
+                    aria-describedby="emailHelp"
+                  />
+                  <div id="emailHelp" class="form-text">
+                    We'll never share your email with anyone else.
+                  </div>
+                </div>
+
+                <div class="mb-3">
+                  <label for="subject" class="form-label">Subject</label>
+                  <input type="text" class="form-control" id="subject" />
+                </div>
+
+                <div class="mb-3">
+                  <label for="FormControlTextarea1" class="form-label"
+                    >Message</label
+                  >
+                  <textarea
+                    class="form-control"
+                    id="FormControlTextarea1"
+                    rows="3"
+                  ></textarea>
+                </div>
+
+                <div class="mb-3 form-check">
+                  <input
+                    type="checkbox"
+                    class="form-check-input"
+                    id="exampleCheck1"
+                  />
+                  <label class="form-check-label" for="exampleCheck1"
+                    >Check me out</label
+                  >
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+            </div>
+            <div class="col-md-3">
+              <div>
+                <h5>Miami Headquarters</h5>
+                <p class="m-0">235 SE 1st Street, Miami, Florida 33131</p>
+                <p class="m-0">Hours of Operation</p>
+                <p class="m-0">
+                  <i class="bi bi-clock"></i> Mon - Fri | 8:00AM – 5:00PM
+                </p>
+                <p class="m-0">
+                  <i class="bi bi-clock"></i> Saturday | 9:00AM - 3:00PM
+                </p>
+              </div>
+
+              <div class="pt-3">
+                <h5>Downtown Branch</h5>
+                <p class="m-0">235 SE 1st Street, Miami, Florida 33131</p>
+                <p class="m-0">Hours of Operation</p>
+                <p class="m-0">
+                  <i class="bi bi-clock"></i> Mon - Fri | 8:00AM – 5:00PM
+                </p>
+                <p class="m-0">
+                  <i class="bi bi-clock"></i> Saturday | 9:00AM - 3:00PM
+                </p>
+                <p class="m-0">
+                  <i class="bi bi-clock"></i> Sunday | 9:00AM - 4:00PM
+                </p>
+                <p class="m-0">Free valet parking (with purchase)</p>
+              </div>
+
+              <div class="pt-3">
+                <h5>Doral Branch</h5>
+                <p class="m-0">235 SE 1st Street, Miami, Florida 33131</p>
+                <p class="m-0">Hours of Operation</p>
+                <p class="m-0">
+                  <i class="bi bi-clock"></i> Mon - Fri | 8:00AM – 5:00PM
+                </p>
+                <p class="m-0">
+                  <i class="bi bi-clock"></i> Saturday | 9:00AM - 3:00PM
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="bg-light pt-5 pb-5">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-3 col-md-6 text-start">
+            <p>
+              <b>Head Office:</b> 235 SE 1st Street, Miami <br />
+              <b>Telephone:</b> <a href="tel:+13053772536">(305) 377-2536</a>
+            </p>
+          </div>
+
+          <div class="col-lg-3 col-md-6 text-start">
+            <p>
+              <b>Doral Office:</b> 10429, NW 41st Street <br />
+              <b>Telephone:</b> <a href="tel:+13053772536">(305) 377-2536</a>
+            </p>
+          </div>
+
+          <div class="col-lg-3 col-md-6 text-start">
+            <p>
+              <b>Downtown Miami Office:</b> 242 NE 1st street, Miami <br />
+              <b>Telephone:</b> <a href="tel:+13053772536">(305) 377-2536</a>
+            </p>
+          </div>
+
+          <div class="col-lg-3 col-md-6 text-start">
+            <img src="img/euro_logo.png" width="300rem" alt="" />
+            <p>Euro Exchange USA Currency Exchange</p>
+            <p>
+              Our company will go the extra mile to offer the best currency
+              exchange rate that will meet your requirements.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="py-3 my-4">
+          <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item mb-2">
+              <a href="index.html" class="nav-link text-muted">Home</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="about-us.html" class="nav-link text-muted">Abouts Us</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="services.html" class="nav-link text-muted">Services</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="locations.html" class="nav-link text-muted">Location</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="rates.html" class="nav-link text-muted">Rates</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="contact-us.html" class="nav-link text-muted"
+                >Contact Us</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://xchangeofamerica.com/"
+                class="btn btn-outline-primary"
+                >Order Online</a
+              >
+            </li>
+          </ul>
+          <div
+            class="d-flex flex-column flex-sm-row justify-content-between py-2 my-2"
+          >
+            <p>&copy; 2022 Company, Inc. All rights reserved.</p>
+            <ul class="list-unstyled d-flex">
+              <li class="ms-3">
+                <a
+                  class="link-dark"
+                  href="https://www.facebook.com/EuroExchangeUSA/"
+                >
+                  <i class="bi bi-facebook" style="font-size: 2rem"></i>
+                </a>
+              </li>
+              <li class="ms-3">
+                <a
+                  class="link-dark"
+                  href="https://www.instagram.com/euroexchange/"
+                  ><i class="bi bi-instagram" style="font-size: 2rem"></i
+                ></a>
+              </li>
+              <li class="ms-3">
+                <a class="link-dark" href="#"
+                  ><i class="bi bi-youtube" style="font-size: 2rem"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/custom.js"></script>
+  </body>
+</html>
