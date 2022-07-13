@@ -35,12 +35,6 @@ body {
   z-index: 999;
 }
 
-.background-image {
-  background-image: url(img/image.png);
-  background-position: center;
-  background-repeat: repeat;
-}
-
 /*  */
 
 .home .carousel-item {
