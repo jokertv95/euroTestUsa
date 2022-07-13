@@ -20,10 +20,13 @@
       href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,700;1,900&display=swap"
       rel="stylesheet"
     />
-    <title>EuroMiami</title>
+    <title>Euro Exchange USA</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav
+      class="navbar fixed-top navbar-expand-lg navbar-dark bg-black"
+      style="--bs-bg-opacity: 0.5"
+    >
       <div
         class="container d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-2 border-bottom"
       >
@@ -31,7 +34,7 @@
           class="navbar-brand d-flex col-md-3 mb-2 mb-md-0 text-dark text-decoration-none"
           href="index.html"
         >
-          <img src="img/euro_logo.png" width="250rem" alt="" />
+          <img src="img/euro_logo.png" width="250px" alt="" />
         </a>
         <button
           class="navbar-toggler"
@@ -46,9 +49,17 @@
         </button>
 
         <div
-          class="collapse navbar-collapse col-12 col-md-auto mb-2 justify-content-end mb-md-0"
+          class="collapse navbar-collapse col-9 col-md-auto mb-2 justify-content-evenly mb-md-0"
           id="navbarSupportedContent"
         >
+          <div class="d-flex">
+            <a
+              href="https://xchangeofamerica.com/"
+              class="text-decoration-none btn btn-sm btn-primary"
+              >ORDER ONLINE</a
+            >
+          </div>
+
           <ul class="navbar-nav mb-2 mb-lg-0">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="index.html"
@@ -75,10 +86,14 @@
                 </li>
                 <li><hr class="dropdown-divider" /></li>
                 <li>
-                  <a class="dropdown-item" href="#">Buy Sell Currency</a>
+                  <a class="dropdown-item" href="https://xchangeofamerica.com/"
+                    >Buy Sell Currency</a
+                  >
                 </li>
                 <li>
-                  <a class="dropdown-item" href="#">Currency Exchange</a>
+                  <a class="dropdown-item" href="currency-exchange.html"
+                    >Currency Exchange</a
+                  >
                 </li>
               </ul>
             </li>
@@ -98,7 +113,9 @@
                   <a class="dropdown-item" href="locations.html">Maimi, FL</a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="locations.html">Doral, FL</a>
+                  <a class="dropdown-item" href="location-doral.html"
+                    >Doral, FL</a
+                  >
                 </li>
               </ul>
             </li>
@@ -266,25 +283,31 @@
       <section class="pt-5 pb-5 bg-light">
         <div class="container">
           <div class="row">
-            <div class="col-md-6">
-              <img src="/img/euro_logo.png" width="250rem" alt="" />
+            <div class="col-md-3 text-center mb-2">
+              <img
+                class="mt-5 rounded mx-auto"
+                src="img/euro_logo.png"
+                width="250rem"
+                alt=""
+              />
             </div>
-            <div class="col-md-6 text-end">
+            <div class="col-md-6 text-center">
               <h1>BEST RATES</h1>
               <p>
                 Our team is working around the clock tomake sure we secure the
                 best ratesfor the currency you need
               </p>
             </div>
+            <div class="col-md-3"></div>
           </div>
         </div>
       </section>
 
       <section class="mt-5 mp-5">
-        <div class="container text-start">
+        <div class="container text-center">
           <div class="row justify-content-around">
             <div class="col-lg-12 col-md-12">
-              <h3 class="pb-3 text-center">Why Choose Us</h3>
+              <h1 class="pb-3 text-center">Why Choose Us</h1>
             </div>
             <div class="col-lg-4 col-md-12">
               <i class="bi bi-cash-coin" style="font-size: 4rem"></i>
@@ -319,76 +342,56 @@
       </section>
     </main>
 
-    <footer class="bg-light pt-5 pb-5">
+    <footer class="bg-light">
       <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-lg-3 col-md-6 text-start">
-            <p>
-              <b>Head Office:</b> 235 SE 1st Street, Miami <br />
-              <b>Telephone:</b> <a href="tel:+13053772536">(305) 377-2536</a>
-            </p>
-          </div>
-
-          <div class="col-lg-3 col-md-6 text-start">
-            <p>
-              <b>Doral Office:</b> 10429, NW 41st Street <br />
-              <b>Telephone:</b> <a href="tel:+13053772536">(305) 377-2536</a>
-            </p>
-          </div>
-
-          <div class="col-lg-3 col-md-6 text-start">
-            <p>
-              <b>Downtown Miami Office:</b> 242 NE 1st street, Miami <br />
-              <b>Telephone:</b> <a href="tel:+13053772536">(305) 377-2536</a>
-            </p>
-          </div>
-
-          <div class="col-lg-3 col-md-6 text-start">
-            <img src="img/euro_logo.png" width="300rem" alt="" />
+        <div class="row row-col-4 py-5 mt-5 border-top">
+          <div class="col-md-3 text-center">
+            <a
+              href="index.html"
+              class="d-flex align-items-center mb-3 link-dark text-decoration-none"
+            >
+              <img
+                src="img/euro_logo.png"
+                alt="EuroExchangeUSA Bank Logo"
+                style="width: 200px"
+                class="rounded mx-auto"
+              />
+            </a>
             <p>Euro Exchange USA Currency Exchange</p>
             <p>
               Our company will go the extra mile to offer the best currency
               exchange rate that will meet your requirements.
             </p>
+            <p class="text-muted">&copy; 2021</p>
           </div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="py-3 my-4">
-          <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-            <li class="nav-item mb-2">
-              <a href="index.html" class="nav-link text-muted">Home</a>
-            </li>
-            <li class="nav-item mb-2">
-              <a href="about-us.html" class="nav-link text-muted">Abouts Us</a>
-            </li>
-            <li class="nav-item mb-2">
-              <a href="services.html" class="nav-link text-muted">Services</a>
-            </li>
-            <li class="nav-item mb-2">
-              <a href="locations.html" class="nav-link text-muted">Location</a>
-            </li>
-            <li class="nav-item mb-2">
-              <a href="rates.html" class="nav-link text-muted">Rates</a>
-            </li>
-            <li class="nav-item mb-2">
-              <a href="contact-us.html" class="nav-link text-muted"
-                >Contact Us</a
-              >
-            </li>
-            <li>
-              <a
-                href="https://xchangeofamerica.com/"
-                class="btn btn-outline-primary"
-                >Order Online</a
-              >
-            </li>
-          </ul>
-          <div
-            class="d-flex flex-column flex-sm-row justify-content-between py-2 my-2"
-          >
-            <p>&copy; 2022 Company, Inc. All rights reserved.</p>
-            <ul class="list-unstyled d-flex">
+
+          <div class="col-md-4 text-center">
+            <h5>Where to find us</h5>
+            <div class="col-md-12">
+              <p>
+                <b>Head Office:</b> 235 SE 1st Street, Miami <br />
+                <b>Telephone:</b> <a href="tel:+13053772536">(305) 377-2536</a>
+              </p>
+            </div>
+
+            <div class="col-md-12">
+              <p>
+                <b>Doral Office:</b> 10429, NW 41st Street <br />
+                <b>Telephone:</b> <a href="tel:+13053772536">(305) 377-2536</a>
+              </p>
+            </div>
+
+            <div class="col-md-12">
+              <p>
+                <b>Downtown Miami Office:</b> 242 NE 1st street, Miami <br />
+                <b>Telephone:</b> <a href="tel:+13053772536">(305) 377-2536</a>
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-2 text-center">
+            <h5>Follow us</h5>
+            <ul class="list-unstyled d-flex justify-content-center">
               <li class="ms-3">
                 <a
                   class="link-dark"
@@ -408,6 +411,45 @@
                 <a class="link-dark" href="#"
                   ><i class="bi bi-youtube" style="font-size: 2rem"></i
                 ></a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-md-2 text-center">
+            <h5>Section</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a href="index.html" class="nav-link p-0 text-muted">Home</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="about-us.html" class="nav-link p-0 text-muted"
+                  >Abouts Us</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="services.html" class="nav-link p-0 text-muted"
+                  >Services</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="locations.html" class="nav-link p-0 text-muted"
+                  >Location</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="rates.html" class="nav-link p-0 text-muted">Rates</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="contact-us.html" class="nav-link p-0 text-muted"
+                  >Contact Us</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a
+                  href="https://xchangeofamerica.com/"
+                  class="btn btn-outline-primary"
+                  >Order Online</a
+                >
               </li>
             </ul>
           </div>

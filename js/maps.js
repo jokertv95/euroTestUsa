@@ -1,5 +1,3 @@
-// JAVASCRIPT GOOGLE MAP API
-
 let map;
 
 function initMap() {
@@ -10,7 +8,7 @@ function initMap() {
   // The map, centered at Uluru
   const map = new google.maps.Map(document.getElementById("map"), {
     zoom: 17,
-    center: euroExchangeHead,
+    center: euroExchangeDoral,
     mapId: "9fdf44a18ae38824",
   });
 
