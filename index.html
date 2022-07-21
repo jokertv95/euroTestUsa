@@ -25,16 +25,21 @@
   <body>
     <nav
       class="navbar fixed-top navbar-expand-lg navbar-dark bg-black"
-      style="--bs-bg-opacity: 0.5"
+      style="--bs-bg-opacity: 0.85"
     >
       <div
-        class="container d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-2 border-bottom"
+        class="container d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3"
       >
         <a
           class="navbar-brand d-flex col-md-3 mb-2 mb-md-0 text-dark text-decoration-none"
           href="index.html"
         >
-          <img src="img/euro_logo.png" width="250px" alt="" />
+          <img
+            src="img/euro_logo_white.png"
+            width="250px"
+            alt=""
+            style="--bs-bg-opacity: 1"
+          />
         </a>
         <button
           class="navbar-toggler"
@@ -80,7 +85,7 @@
               >
                 Services
               </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
+              <ul class="dropdown-menu w-75" aria-labelledby="navbarDropdown1">
                 <li>
                   <a class="dropdown-item" href="services.html">Our Services</a>
                 </li>
@@ -108,7 +113,7 @@
               >
                 Location
               </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown2">
+              <ul class="dropdown-menu w-75" aria-labelledby="navbarDropdown2">
                 <li>
                   <a class="dropdown-item" href="locations.html">Maimi, FL</a>
                 </li>
@@ -140,7 +145,7 @@
           <div class="carousel-inner">
             <div
               class="carousel-item active"
-              style="background-image: url(img/slider/EuroEX-1.jpg)"
+              style="background-image: url(img/slider/euro_2.jpg)"
             >
               <div class="container">
                 <p>Head Office Location</p>
@@ -149,7 +154,7 @@
             </div>
             <div
               class="carousel-item"
-              style="background-image: url(img/slider/EuroEX-2.jpg)"
+              style="background-image: url(img/slider/euro_1.jpg)"
             >
               <div class="container">
                 <p>VISIT US AT OUR MAIN OFFICE</p>
@@ -162,7 +167,7 @@
             </div>
             <div
               class="carousel-item"
-              style="background-image: url(img/slider/EuroEX-3.jpg)"
+              style="background-image: url(img/slider/euro_3.jpg)"
             >
               <div class="container">
                 <p>The Most Competitive Rates just for you!</p>
@@ -198,7 +203,7 @@
         </div>
       </section>
 
-      <section class="bg-secondary p-3">
+      <section class="bg-dark p-3">
         <div class="container">
           <div class="row">
             <div class="col-md-3 text-white">
@@ -223,36 +228,67 @@
         </div>
       </section>
 
-      <section style="background-image: url(img/image.png)">
-        <div class="background-container">
-          <div class="container pt-5 pb-5">
-            <div class="row text-center text-white">
-              <div class="col-12">
-                <h3 class="pb-3">VISIT OUR MIAMI LOCATIONS</h3>
-              </div>
-              <div class="col-lg-4 col-md-12">
-                <h3>DOWNTOWN</h3>
-                <p>
-                  242 NE 1st Street, <br />
-                  Miami, FL 33132
-                </p>
-                <h5>FREE VALET PARKING</h5>
+      <section>
+        <div class="container pt-5 pb-5">
+          <div class="row text-center text-white">
+            <div class="col-12">
+              <h3 class="pb-3 text-black">VISIT OUR MIAMI LOCATIONS</h3>
+            </div>
+
+            <div class="row position-relative justify-content-around">
+              <div class="col-lg-4 col-md-6 position-relative pb-2">
+                <div class="card bg-dark text-white">
+                  <img
+                    src="/img/euro_downtown.png"
+                    class="card-img"
+                    alt="..."
+                    style="background-size: cover"
+                  />
+                  <div class="card-img-overlay visit-img-bg">
+                    <h3 class="card-title">DOWNTOWN</h3>
+                    <p class="card-text">
+                      242 NE 1st Street, <br />
+                      Miami, FL 33132
+                    </p>
+                    <h5>FREE VALET PARKING</h5>
+                  </div>
+                </div>
               </div>
 
-              <div class="col-lg-4 col-md-6">
-                <h3>MAIN OFFICE</h3>
-                <p>
-                  235 SE 1st Street, <br />
-                  Miami, FL 33131
-                </p>
+              <div class="col-lg-4 col-md-6 position-relative pb-2">
+                <div class="card bg-dark text-white">
+                  <img
+                    src="/img/euro_main_1.png"
+                    class="card-img"
+                    alt="..."
+                    style="background-size: cover"
+                  />
+                  <div class="card-img-overlay visit-img-bg">
+                    <h3 class="card-title">MAIN OFFICE</h3>
+                    <p class="card-text">
+                      235 SE 1st Street, <br />
+                      Miami, FL 33131
+                    </p>
+                  </div>
+                </div>
               </div>
 
-              <div class="col-lg-4 col-md-6">
-                <h3>DORAL</h3>
-                <p>
-                  10329 NW 41st Street, <br />
-                  Doral, FL 33178
-                </p>
+              <div class="col-lg-4 col-md-6 position-relative">
+                <div class="card bg-dark text-white">
+                  <img
+                    src="/img/euro_doral_1.png"
+                    class="card-img"
+                    alt="..."
+                    style="background-image: cover"
+                  />
+                  <div class="card-img-overlay visit-img-bg">
+                    <h3 class="card-title">DORAL</h3>
+                    <p class="card-text">
+                      10329 NW 41st Street, <br />
+                      Doral, FL 33178
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -299,6 +335,54 @@
               </p>
             </div>
             <div class="col-md-3"></div>
+            <div class="col-md-12 mt-3">
+              <div class="tradingview-widget-container">
+                <div class="tradingview-widget-container__widget"></div>
+                <div class="tradingview-widget-copyright">
+                  <a
+                    href="https://www.tradingview.com"
+                    rel="noopener"
+                    target="_blank"
+                    ><span class="blue-text">Quotes</span></a
+                  >
+                  by TradingView
+                </div>
+                <script
+                  type="text/javascript"
+                  src="https://s3.tradingview.com/external-embedding/embed-widget-tickers.js"
+                  async
+                >
+                  {
+                      "symbols": [
+                      {
+                          "description": "USD/EUR",
+                          "proName": "FX_IDC:USDEUR"
+                      },
+                      {
+                          "description": "USD/MXN",
+                          "proName": "FX:USDMXN"
+                      },
+                      {
+                          "description": "USD/GBP",
+                          "proName": "FX_IDC:USDGBP"
+                      },
+                      {
+                          "description": "US OIL",
+                          "proName": "TVC:USOIL"
+                      },
+                      {
+                          "description": "Dow Jones",
+                          "proName": "DJCFD:DJI"
+                      }
+                  ],
+                      "colorTheme": "light",
+                      "isTransparent": false,
+                      "showSymbolLogo": true,
+                      "locale": "en"
+                  }
+                </script>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -345,10 +429,10 @@
     <footer class="bg-light">
       <div class="container">
         <div class="row row-col-4 py-5 mt-5 border-top">
-          <div class="col-md-3 text-center">
+          <div class="col-md-3 text-start">
             <a
               href="index.html"
-              class="d-flex align-items-center mb-3 link-dark text-decoration-none"
+              class="d-flex align-items-sm-start mb-3 link-dark text-decoration-none"
             >
               <img
                 src="img/euro_logo.png"
@@ -365,7 +449,7 @@
             <p class="text-muted">&copy; 2021</p>
           </div>
 
-          <div class="col-md-4 text-center">
+          <div class="col-md-4 text-start">
             <h5>Where to find us</h5>
             <div class="col-md-12">
               <p>
@@ -389,9 +473,9 @@
             </div>
           </div>
 
-          <div class="col-md-2 text-center">
+          <div class="col-md-2 text-start">
             <h5>Follow us</h5>
-            <ul class="list-unstyled d-flex justify-content-center">
+            <ul class="list-unstyled d-flex justify-content-start">
               <li class="ms-3">
                 <a
                   class="link-dark"
@@ -417,7 +501,7 @@
             </ul>
           </div>
 
-          <div class="col-md-2 text-center">
+          <div class="col-md-2 text-start">
             <h5>Section</h5>
             <ul class="nav flex-column">
               <li class="nav-item mb-2">
